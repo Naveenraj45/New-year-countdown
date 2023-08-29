@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/pexels-jonathan-petersson-399610.jpg);    
+    background-size: cover;
+    user-select: none;
+    cursor: pointer;
+    /* background-position: center; */
+}
+p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color:whitesmoke;
+}
+h2{
+    /* font-family: Arial, Helvetica; */
+    margin-bottom: 10px;
+    color:whitesmoke;
+}
+.whole{
+    display: flex;
+    gap: 10px;
+    color:whitesmoke;
+    text-align: center;
+} 
+@media (min-width:576px){
+    .whole{
+        font-size: 20px; 
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+
+    }
+}
+@media (min-width:768px){
+    .whole{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
